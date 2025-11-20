@@ -1,0 +1,62 @@
+ *{
+ font-family: Arial, sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background: #f4f4f4;
+}
+
+
+
+
+.signinframe {
+ background: white;
+ box-shadow: 0 4px 10px rgba(253, 230, 230, 0.1);
+  width: 360px;
+   margin: 100px auto;
+   padding: 30px 20px;
+   align-content: center;
+ 
+}
+
+
+
+
+.signinform {
+ box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+
+
+
+
+.signinbutton {
+ width: 100%;
+ padding: 10px;
+ background: #4CAF50;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+
+
+
+.singinbutton:hover {
+ background: #45a049;
+}
+
+
+
+
+.error {
+ color: red;
+ text-align: center;
+}
